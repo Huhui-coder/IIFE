@@ -1,0 +1,279 @@
+*{
+    padding: 0;
+    margin:0;
+}
+body{
+    background: url(../img/bg_1.jpg) repeat;
+    font: 14px/1.4 宋体, Arial, Helvetica, sans-serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration:none; 
+    color:#333; 
+}
+.header_wrap{
+    width: 100%;
+    height: 120px;
+    background-color: antiquewhite;
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+}
+.header{
+    width: 1024px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+.header::after{
+    content:".";        
+    display:block;        
+    height:0;        
+    clear:both;        
+    visibility:hidden;        
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 120px;
+    height: 120px;
+    background-size: cover;
+}
+.desc{
+    float: right;
+    position: absolute;
+    top: 60px;
+    right: 60px
+}
+.search{
+    float: right;
+    position: absolute;
+    top: 90px;
+    right: 60px;
+    
+
+}
+.search input{
+    width:200px;
+    height: 30px;
+    font-size: 18px;
+    outline: none;
+    padding-right: 20px;
+    position: relative;
+}
+.search img{
+    position: absolute;
+    right: 0;
+    top: 2px;
+    width: 23px;
+    height: 23px;
+}
+.nav_wrap{
+    width: 100%;
+    height: 80px;
+    margin: 20px 0;
+}
+.nav{
+    width: 960px;
+    height: 50px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 18px;
+    position: relative;
+}
+.nav img{
+    position: absolute;
+    left: 31px;
+    top: 20%;
+}
+.nav li:first-child{
+    margin-left: 100px;
+}
+.nav li{
+    display: inline-block;
+    line-height: 50px;
+    margin-left: 50px;
+    padding: 0 10px;
+    transition: all .6s;
+}
+.nav li a {
+    display: inline-block;
+    line-height: 50px;
+   
+}
+.nav li:hover{
+    background-color: #6fb1cc;
+    color: white;
+}
+.banner_wrap{
+    width: 100%;
+    height: 332px;
+}
+.banner{
+    width: 946px;
+    height: 332px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner::after{
+    content:".";        
+    display:block;        
+    height:0;        
+    clear:both;        
+    visibility:hidden;    
+}
+.banner .carousel-control{
+    position: absolute;
+    top: 20%;
+}
+.main_wrap{
+    width: 100%;
+    height: 600px;
+
+}
+.main{
+    width: 980px;
+    height: 600px;
+    margin: 0 auto;
+}
+.main::after{
+    content:".";        
+    display:block;        
+    height:0;        
+    clear:both;        
+    visibility:hidden;     
+}
+.main_left{
+    float: left;
+    width: 60%;
+    height: 600px;
+    
+   
+}
+.main_right{
+    float: right;
+    width: 40%;
+    height: 600px;
+}
+.main_left .box{
+   width: 259px;
+   height: 167px;
+   background-size: cover;
+   position: relative;
+   background-color: azure;
+   float: left;
+   margin: 20px 10px;
+   transition: all .6s;
+   box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, .2);
+}
+.main_left .box:hover{
+  transform: scale(1.1);
+}
+.main_left .box0{
+   background-image: url(../img/box1\(1\).jpg);
+   background-size: cover;
+}
+.main_left .box1{
+    background-image: url(../img/box1\(2\).jpg);
+    background-size: cover;
+}
+.main_left .box2{
+    background-image: url(../img/box1\(5\).jpg);
+    background-size: cover;
+}
+.main_left .box3{
+    background-image: url(../img/box1\(3\).jpg);
+    background-size: cover;
+}
+.main_left .box4{
+    background-image: url(../img/box1\(4\).jpg);
+    background-size: cover;
+}
+.main_left .box5{
+    background-image: url(../img/box1\(6\).jpg);
+    background-size: cover;
+}
+
+.main_left .title{
+    position: absolute;
+    bottom: -29px;
+    text-align: center;
+}
+.main_left .title p {
+    text-align: center;
+    color: black;
+}
+.main_right .title{
+    font-size: 20px;
+    color: #666;
+}
+.main_right .mian_right_desc{
+    text-indent: 2em;
+    font-size: 14px;
+    
+}
+.main_right .title_header{
+    padding: 0 10px 0 10px;
+    display: inline;
+    width: 270px;
+    height: 49px;
+    display: block;
+    font-family: "微软雅黑";
+    font-size: 18px;
+    color: #999;
+    line-height: 36px;
+    cursor: pointer;
+    background: url(../img/yewu.png);
+    margin: 0;
+}
+.main_right .title_header .content{
+    font-size: 14px;
+    line-height: 24px;
+    color: black;
+}
+
+.col-md-6 {
+    width: 97%;
+}
+.main_right h3{
+  color: black;
+}
+.panel-heading {
+    background-color: #7b6a6a;
+}
+.footer_wrap{
+    width: 100%;
+    height: 300px;
+    margin: 20px 0;
+}
+.footer{
+    width: 980px;
+    height: 300px;
+    margin: 0 auto;
+}
+footer::after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.container{
+    width: 1152px;
+    height: 60px;
+        margin: 0 auto;
+}
+.footer .list{
+    width: 1152px;
+    height: 60px;
+    margin: 0 auto;
+}
+.footer .list li{
+    display: inline-block;
+    margin: 15px;
+}
+.footer .list li:first-child{
+    margin-left: 0px;
+}
